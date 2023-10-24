@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "alexatorrandomthings:raw_nugget"
+  },
+  "result": "alexatorrandomthings:raw_nugget"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "food_bag",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "alexatorrandomthings:food_bag",
+    "count": 3
+  }
+}

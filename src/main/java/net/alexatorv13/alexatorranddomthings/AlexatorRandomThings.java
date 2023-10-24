@@ -1,6 +1,8 @@
 package net.alexatorv13.alexatorranddomthings;
 
 import com.mojang.logging.LogUtils;
+import net.alexatorv13.alexatorranddomthings.item.ModCreativeModTabs;
+import net.alexatorv13.alexatorranddomthings.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,14 +16,17 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(AlexatorRanddomThings.MOD_ID)
-public class AlexatorRanddomThings {
-    public static final String MOD_ID = "alexatorranddomthings";
+@Mod(AlexatorRandomThings.MOD_ID)
+public class AlexatorRandomThings {
+    public static final String MOD_ID = "alexatorrandomthings";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public AlexatorRanddomThings() {
+    public AlexatorRandomThings() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
+        ModItems.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);

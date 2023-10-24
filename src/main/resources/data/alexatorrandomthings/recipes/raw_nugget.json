@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "minecraft:chicken"
+    },{
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:raw_nugget",
+    "count": 20
+  }
+}
