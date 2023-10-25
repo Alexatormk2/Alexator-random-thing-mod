@@ -1,6 +1,7 @@
 package net.alexatorv13.alexatorranddomthings;
 
 import com.mojang.logging.LogUtils;
+import net.alexatorv13.alexatorranddomthings.block.ModBlock;
 import net.alexatorv13.alexatorranddomthings.item.ModCreativeModTabs;
 import net.alexatorv13.alexatorranddomthings.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -26,6 +27,7 @@ public class AlexatorRandomThings {
 
 
         ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 

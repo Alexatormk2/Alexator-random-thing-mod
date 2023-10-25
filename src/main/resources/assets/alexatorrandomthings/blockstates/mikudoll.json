@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "alexatorrandomthings:block/mikudoll" },
+    "facing=east": { "model":  "alexatorrandomthings:block/mikudoll", "y": 90 },
+    "facing=south": { "model":  "alexatorrandomthings:block/mikudoll", "y": 180 },
+    "facing=west": { "model":  "alexatorrandomthings:block/mikudoll", "y": 270 }
+  }
+}

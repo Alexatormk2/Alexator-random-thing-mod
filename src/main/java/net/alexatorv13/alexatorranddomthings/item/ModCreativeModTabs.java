@@ -1,6 +1,7 @@
 package net.alexatorv13.alexatorranddomthings.item;
 
 import net.alexatorv13.alexatorranddomthings.AlexatorRandomThings;
+import net.alexatorv13.alexatorranddomthings.block.ModBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,7 +28,18 @@ public class ModCreativeModTabs {
                     })
 
                     .build());
+    public static final RegistryObject<CreativeModeTab> ALEXATORS_BLOCKS = CREATIVE_MODE_TABS.register("alexator_blocks",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlock.MIKUDOLL.get()))
 
+
+                    .title(Component.translatable("creativetab.alexator_blocks"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(new ItemStack(ModBlock.MIKUDOLL.get()));
+                      
+                    })
+
+                    .build());
     public static final RegistryObject<CreativeModeTab> ALEXATORS_MATERIALS = CREATIVE_MODE_TABS.register("alexator_materials",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FOOD_BAG.get()))
 
