@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "alexatorrandomthings:item/miku_sword_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "alexatorrandomthings:item/miku_sword_2d"
+    },
+    "ground": {
+      "parent": "alexatorrandomthings:item/miku_sword_2d"
+    },
+    "fixed": {
+      "parent": "alexatorrandomthings:item/miku_sword_2d"
+    }
+  }
+}

@@ -48,10 +48,26 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.SAPPHIRE.get());
+                        pOutput.accept(ModItems.MIKUGEM.get());
                         pOutput.accept(ModItems.FOOD_BAG.get());
                     })
 
                     .build());
+
+    public static final RegistryObject<CreativeModeTab> ALEXATORS_TOOLS_WEAPONS = CREATIVE_MODE_TABS.register("alexator_tools_weapons",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MIKU_SWORD.get()))
+
+
+                    .title(Component.translatable("creativetab.alexator_tools_weapons"))
+                    .displayItems((pParameters, pOutput) -> {
+
+                        pOutput.accept(ModItems.MIKU_SWORD.get());
+
+                    })
+
+                    .build());
+
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

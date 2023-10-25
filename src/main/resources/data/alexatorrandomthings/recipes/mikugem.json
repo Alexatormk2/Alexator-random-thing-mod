@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "miku",
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },"X": {
+      "item": "minecraft:diamond"
+    },"A": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "AXA",
+    "#A#"
+  ],
+  "result": {
+    "item": "alexatorrandomthings:mikugem"
+
+  }
+}
