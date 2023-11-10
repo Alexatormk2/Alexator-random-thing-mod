@@ -62,6 +62,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.MIKU_SWORD.get());
+                        pOutput.accept(ModItems.MIKU_PICKAXE.get());
 
                     })
 
