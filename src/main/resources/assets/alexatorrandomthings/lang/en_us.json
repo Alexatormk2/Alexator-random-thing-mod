@@ -1,13 +1,20 @@
 {
   "item.alexatorrandomthings.sapphire": "Sapphire",
   "item.alexatorrandomthings.chicken_nugget": "Chicken Nuggets",
+  "item.alexatorrandomthings.fries": "Fries",
+  "item.alexatorrandomthings.cuttingknife": "Cutting knife",
   "item.alexatorrandomthings.raw_nugget": "Raw Nuggets",
+  "item.alexatorrandomthings.raw_fries": "Raw Fries",
   "item.alexatorrandomthings.nugget_bag": "Nuggets Bag",
+  "item.alexatorrandomthings.fries_bag": "Fries Bag",
   "item.alexatorrandomthings.food_bag": "Food Bag",
   "item.alexatorrandomthings.mikugem": "Miku Gem",
   "item.alexatorrandomthings.mikusword": "Miku Sword",
   "item.alexatorrandomthings.mikuspickaxe": "Miku Pickaxe",
   "block.alexatorrandomthings.mikudoll": "Miku Doll",
+  "block.alexatorrandomthings.mikustatue": "Miku Figure",
+  "creativetab.alexator_tools_weapons": "Alexators tool and weapons",
   "creativetab.alexator_foods": "Alexators Foods",
+  "creativetab.alexator_blocks": "Alexators Blocks",
   "creativetab.alexator_materials": "Alexators Materials"
 }

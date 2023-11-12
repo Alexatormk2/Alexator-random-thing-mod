@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "food_bag",
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },"X": {
+      "item": "minecraft:string"
+    },"A": {
+      "item": "minecraft:stone"
+    },"S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "#X#",
+    "SXS",
+    "#A#"
+  ],
+  "result": {
+    "item": "alexatorrandomthings:mikustatue"
+
+  }
+}

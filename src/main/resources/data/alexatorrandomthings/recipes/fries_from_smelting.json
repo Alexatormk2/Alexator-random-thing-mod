@@ -4,6 +4,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
-    "item": "alexatorrandomthings:raw_nugget"
+    "item": "alexatorrandomthings:raw_fries"
   },
-  "result": "alexatorrandomthings:chicken_nugget"}
+  "result": "alexatorrandomthings:fries"
+}

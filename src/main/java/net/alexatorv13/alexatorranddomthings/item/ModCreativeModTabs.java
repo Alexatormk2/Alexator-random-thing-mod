@@ -24,6 +24,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CHICKEN_NUGGET.get());
                         pOutput.accept(ModItems.NUGGET_BAG.get());
                         pOutput.accept(ModItems.RAW_NUGGET.get());
+                        pOutput.accept(ModItems.RAW_FRIES.get());
+                        pOutput.accept(ModItems.FRIES.get());
+                        pOutput.accept(ModItems.FRIES_BAG.get());
 
                     })
 
@@ -36,7 +39,8 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(new ItemStack(ModBlock.MIKUDOLL.get()));
-                      
+                        pOutput.accept(new ItemStack(ModBlock.MIKUSTATUE.get()));
+
                     })
 
                     .build());
@@ -50,6 +54,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.MIKUGEM.get());
                         pOutput.accept(ModItems.FOOD_BAG.get());
+                        pOutput.accept(ModItems.CUTTINGKNIFE.get());
                     })
 
                     .build());

@@ -25,6 +25,8 @@ public class ModBlock {
 
     public static final RegistryObject<Block> MIKUDOLL = registerBlock("mikudoll",
             () -> new MikuDoll(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL).noOcclusion()));
+    public static final RegistryObject<Block> MIKUSTATUE = registerBlock("mikustatue",
+            () -> new MikuDoll(BlockBehaviour.Properties.copy(Blocks.CYAN_WOOL).noOcclusion()));
 
 
 

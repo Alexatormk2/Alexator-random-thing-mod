@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "food_bag",
+  "key": {
+    "#": {
+      "item": "alexatorrandomthings:food_bag"
+    },"X": {
+      "item": "alexatorrandomthings:fries_nugget"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X#X"
+  ],
+  "result": {
+    "item": "alexatorrandomthings:fries_bag"
+
+  }
+}

@@ -17,13 +17,22 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CUTTINGKNIFE = ITEMS.register("cuttingknife",
+            () -> new CookingUtilModItem(new Item.Properties()));
+
     public static final RegistryObject<Item> MIKUGEM = ITEMS.register("mikugem",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CHICKEN_NUGGET = ITEMS.register("chicken_nugget",
             () -> new Item(new Item.Properties().food(ModFood.CHICKEN_NUGGET)));
+
+    public static final RegistryObject<Item> FRIES = ITEMS.register("fries",
+            () -> new Item(new Item.Properties().food(ModFood.FRIES)));
     public static final RegistryObject<Item> RAW_NUGGET = ITEMS.register("raw_nugget",
             () -> new Item(new Item.Properties().food(ModFood.RAW_NUGGET)));
+
+    public static final RegistryObject<Item> RAW_FRIES = ITEMS.register("raw_fries",
+            () -> new Item(new Item.Properties().food(ModFood.RAW_FRIES)));
     public static final RegistryObject<Item> MIKU_SWORD = ITEMS.register("mikusword",
             () -> new SwordItem(ModToolTiers.MIKUGEM,4,0,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_PICKAXE = ITEMS.register("mikupickaxe",
@@ -32,6 +41,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NUGGET_BAG = ITEMS.register("nugget_bag",
             () -> new Item(new Item.Properties().food(ModFood.NUGGET_BAG)));
+
+    public static final RegistryObject<Item> FRIES_BAG = ITEMS.register("fries_bag",
+            () -> new Item(new Item.Properties().food(ModFood.FRIES_BAG)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
