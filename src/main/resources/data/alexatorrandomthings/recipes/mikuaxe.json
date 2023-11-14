@@ -13,8 +13,8 @@
     }
   },
   "pattern": [
-    "XXX",
-    " Y ",
+    "XX ",
+    "XY ",
     " # "
   ],
   "result": {
