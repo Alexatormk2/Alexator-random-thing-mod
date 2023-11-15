@@ -1,10 +1,7 @@
 package net.alexatorv13.alexatorranddomthings.item;
 
 import net.alexatorv13.alexatorranddomthings.AlexatorRandomThings;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -38,7 +35,10 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.MIKUGEM,4,2,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_PICKAXE = ITEMS.register("mikupickaxe",
             ()-> new PickaxeItem(ModToolTiers.MIKUGEM,1,0,new Item.Properties().stacksTo(1)));
-
+    public static  final RegistryObject<Item> MIKU_HOE = ITEMS.register("mikuhoe",
+            ()-> new HoeItem(ModToolTiers.MIKUGEM,1,0,new Item.Properties().stacksTo(1)));
+    public static  final RegistryObject<Item> MIKU_SHOVEL= ITEMS.register("mikushovel",
+            ()-> new ShovelItem(ModToolTiers.MIKUGEM,1,0,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_AXE = ITEMS.register("mikuaxe",
             ()-> new AxeItem(ModToolTiers.MIKUGEM,4,0,new Item.Properties().stacksTo(1)));
 

@@ -69,6 +69,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MIKU_SWORD.get());
                         pOutput.accept(ModItems.MIKU_PICKAXE.get());
                         pOutput.accept(ModItems.MIKU_AXE.get());
+                        pOutput.accept(ModItems.MIKU_HOE.get());
+                        pOutput.accept(ModItems.MIKU_SHOVEL.get());
 
                     })
 

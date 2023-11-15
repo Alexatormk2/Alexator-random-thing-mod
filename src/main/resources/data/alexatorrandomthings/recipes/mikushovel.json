@@ -13,12 +13,12 @@
     }
   },
   "pattern": [
-    "XX ",
-    "XY ",
+    " X ",
+    " Y ",
     " # "
   ],
   "result": {
-    "item": "alexatorrandomthings:mikuaxe"
+    "item": "alexatorrandomthings:mikushovel"
   },
   "show_notification": true
 }

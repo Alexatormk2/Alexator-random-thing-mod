@@ -14,11 +14,11 @@
   },
   "pattern": [
     "XX ",
-    "XY ",
+    " Y ",
     " # "
   ],
   "result": {
-    "item": "alexatorrandomthings:mikuaxe"
+    "item": "alexatorrandomthings:mikuhoe"
   },
   "show_notification": true
 }
