@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "alexatorrandomthings:raw_burger"
+  },
+  "result": "alexatorrandomthings:burger"}

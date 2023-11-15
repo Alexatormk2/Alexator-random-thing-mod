@@ -15,8 +15,19 @@ public class ModFood {
     public static final FoodProperties FRIES =
             new FoodProperties.Builder().meat().nutrition(1).saturationMod(0.1f).fast().build();
 
+    public static final FoodProperties PROCESSED_MEAT =
+            new FoodProperties.Builder().meat().nutrition(1).saturationMod(0f).fast().effect(() -> new MobEffectInstance(MobEffects.POISON, 320), 100f).build();
+
+    public static final FoodProperties RAW_BURGER =
+            new FoodProperties.Builder().meat().nutrition(1).saturationMod(0f).fast().effect(() -> new MobEffectInstance(MobEffects.POISON, 320), 100f).build();
+    public static final FoodProperties  BURGER =
+            new FoodProperties.Builder().meat().nutrition(6).saturationMod(6f).fast().build();
+
+
+
     public static final FoodProperties RAW_NUGGET =
             new FoodProperties.Builder().meat().nutrition(1).saturationMod(0f).fast().effect(() -> new MobEffectInstance(MobEffects.POISON, 320), 100f).build();
+
     public static final FoodProperties RAW_FRIES =
             new FoodProperties.Builder().nutrition(1).saturationMod(0f).fast().effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 16), 50f).build();
 

@@ -12,14 +12,16 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, AlexatorRandomThings.MOD_ID);
 
-    public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
-            () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> CUTTINGKNIFE = ITEMS.register("cuttingknife",
-            () -> new CookingUtilModItem(new Item.Properties()));
 
-    public static final RegistryObject<Item> MIKUGEM = ITEMS.register("mikugem",
-            () -> new Item(new Item.Properties()));
+//comida
+public static final RegistryObject<Item> NUGGET_BAG = ITEMS.register("nugget_bag",
+        () -> new Item(new Item.Properties().food(ModFood.NUGGET_BAG)));
+
+    public static final RegistryObject<Item> FRIES_BAG = ITEMS.register("fries_bag",
+            () -> new Item(new Item.Properties().food(ModFood.FRIES_BAG)));
+
+
 
     public static final RegistryObject<Item> CHICKEN_NUGGET = ITEMS.register("chicken_nugget",
             () -> new Item(new Item.Properties().food(ModFood.CHICKEN_NUGGET)));
@@ -31,8 +33,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_FRIES = ITEMS.register("raw_fries",
             () -> new Item(new Item.Properties().food(ModFood.RAW_FRIES)));
-    public static final RegistryObject<Item> MIKU_SWORD = ITEMS.register("mikusword",
-            () -> new SwordItem(ModToolTiers.MIKUGEM,4,2,new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> RAW_BURGER = ITEMS.register("raw_burger",
+            () -> new Item(new Item.Properties().food(ModFood.RAW_BURGER)));
+
+    public static final RegistryObject<Item> PROCESSED_MEAT = ITEMS.register("processed_meat",
+            () -> new Item(new Item.Properties().food(ModFood.BURGER)));
+    public static final RegistryObject<Item> BURGER = ITEMS.register("burger",
+            () -> new Item(new Item.Properties().food(ModFood.BURGER)));
+
+
+    //herramientas y armas
+public static final RegistryObject<Item> MIKU_SWORD = ITEMS.register("mikusword",
+        () -> new SwordItem(ModToolTiers.MIKUGEM,4,2,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_PICKAXE = ITEMS.register("mikupickaxe",
             ()-> new PickaxeItem(ModToolTiers.MIKUGEM,1,0,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_HOE = ITEMS.register("mikuhoe",
@@ -41,14 +54,19 @@ public class ModItems {
             ()-> new ShovelItem(ModToolTiers.MIKUGEM,1,0,new Item.Properties().stacksTo(1)));
     public static  final RegistryObject<Item> MIKU_AXE = ITEMS.register("mikuaxe",
             ()-> new AxeItem(ModToolTiers.MIKUGEM,4,0,new Item.Properties().stacksTo(1)));
+//materiales
+public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+        () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CUTTINGKNIFE = ITEMS.register("cuttingknife",
+            () -> new CookingUtilModItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> MIKUGEM = ITEMS.register("mikugem",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FOOD_BAG = ITEMS.register("food_bag",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> NUGGET_BAG = ITEMS.register("nugget_bag",
-            () -> new Item(new Item.Properties().food(ModFood.NUGGET_BAG)));
 
-    public static final RegistryObject<Item> FRIES_BAG = ITEMS.register("fries_bag",
-            () -> new Item(new Item.Properties().food(ModFood.FRIES_BAG)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

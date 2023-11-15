@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+    "key": {
+    "#": {
+      "item": "alexatorrandomthings:processed_meat"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "alexatorrandomthings:raw_burger"
+  },
+  "show_notification": true
+}

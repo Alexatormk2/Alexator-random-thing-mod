@@ -27,6 +27,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_FRIES.get());
                         pOutput.accept(ModItems.FRIES.get());
                         pOutput.accept(ModItems.FRIES_BAG.get());
+                        pOutput.accept(ModItems.BURGER.get());
+                        pOutput.accept(ModItems.RAW_BURGER.get());
+                        pOutput.accept(ModItems.PROCESSED_MEAT.get());
 
                     })
 

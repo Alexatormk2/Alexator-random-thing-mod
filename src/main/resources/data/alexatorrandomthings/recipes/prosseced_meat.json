@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "nugget",
+  "ingredients": [
+    {
+
+      "item": "minecraft:beef"
+    },{
+      "item": "alexatorrandomthings:cuttingknife"
+    }
+  ],
+  "result": {
+    "item": "alexatorrandomthings:processed_meat",
+    "count": 14
+  }
+}

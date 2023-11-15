@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "category": "food",
-  "cookingtime": 600,
+  "cookingtime": 100,
   "experience": 0.7,
   "ingredient": {
     "item": "alexatorrandomthings:raw_fries"
